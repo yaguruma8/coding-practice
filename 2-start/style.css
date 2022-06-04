@@ -94,5 +94,40 @@ img {
 }
 .gnav__link:hover {
   color: var(--main-color);
+}
+.gnav__link--active {
+  color: var(--main-color);
+}
+.btn-menu {
+  display: none;
+}
 
+/* -------------------------
+  メインビジュアル
+----------------------------*/
+.mv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-image: url(img/pc_mv.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.mv__titleArea {
+  color: #fff;
+  text-align: center;
+}
+.mv__title {
+  font-size: 160px;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 0 4px 6px rgb(0 0 0 /25%);
+  margin-bottom: 10px;
+}
+.mv__subtitle {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.1em;
 }
